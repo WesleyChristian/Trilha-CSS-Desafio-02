@@ -1,0 +1,184 @@
+@import url(reset.css);
+
+body {
+    background-color: rgba(249, 249, 249, 1);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.logo img {
+    padding: 0 10px;
+}
+
+
+#busca {
+    background: #FFFFFF;
+    width: 400px;
+    height: 35px;
+    border: 1px solid #CCCCCC;
+}
+
+.busca img {
+    float: right;
+    height: 35px;
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#foto {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.perfil img {
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+
+.watch {
+    margin-right: 30px;
+}
+
+.watch h1 {
+    margin: 20px;
+}
+
+.conta {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+#foto-conta {
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+}
+
+.conta-perfil {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: end;
+    margin: 5px 20px;
+}
+
+.conta-perfil h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.conta-perfil span {
+    font-weight: 400;
+    font-size: .8rem;
+    color: #515151;
+}
+
+button {
+    display: block;
+    margin: 0 20px 0 -40px;
+    background-color: rgba(204, 0, 0, 1);
+    width: 159px;
+    height: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: rgba(204, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.icone-conta {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.information h2 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 20px 0; 
+}
+
+.information p {
+    font-weight: 400;
+    width: 620px;
+    color: #515151;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.lateral {
+    display: flex;
+    flex-direction: column;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px 10px 10px;
+    width: 400px;
+}
+
+.videos img {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.video-information {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 150px;
+}
+
+.videos h1 {
+    width: 250px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.videos h2 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #515151;
+}
+
+.videos span {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: .8rem;
+    color: #515151;
+}
